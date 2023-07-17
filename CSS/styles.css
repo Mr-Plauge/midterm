@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+* {
+  margin: 0; padding: 0; border: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 100;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+h1{
+  font-size: 1.5em;
+  font-family: "Quicksand", Helvetica;
+}
+html {
+  scroll-behavior: smooth;
+}
+header{
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0em;
+}
+nav {
+  display: block;
+}
+div.container{
+  width: 100%;
+  margin: auto;
+  background-color: rgb(37, 34, 36);
+}
+div.wrapper{
+  width:  50%;
+  margin: auto;
+}
+li.displayName{
+  display: inline-block;
+  width: 120px;
+  line-height: 3em;
+  text-align: left;
+  flex: 8;
+}
+.displayName h1{
+  font-size: 2em;
+}
+div.video{
+  width: 100%;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+.video video{
+  width: 50%;
+  pointer-events: none;
+}
+div.about{
+  width: 100%;
+  padding: 2em;
+  margin: auto;
+  background-color: rgb(40, 40, 71);
+}
+.about h1{
+  font-size: 3em;
+  padding-bottom: 0.2em;
+}
+div.projectModule{
+  min-width: 100%;
+  margin: 1em;
+  text-align: center;
+}
+div.qualities{
+  margin: auto;
+  display: grid;
+  padding: 1em;
+  gap: 0.5em;
+  grid-template-columns: repeat(5, 1fr);
+}
+.qualities p{
+  background-color: rgb(74, 46, 46);
+  padding: 0.2em;
+}
+p.modding{
+  background-color: rgb(151, 90, 147);
+}
+p.unity{
+  background-color: rgb(114, 118, 139);
+}
+p.csharp{
+  background-color: rgb(94, 135, 221);
+}
+p.java{
+  background-color: rgb(211, 61, 96);
+}
+p.datapack{
+  background-color: rgb(147, 60, 85);
+}
+p.projectDescription{
+  text-align: left;
+}
+div.project{
+  width: 100%;
+  padding: 1em;
+  margin: auto;
+  background-color: rgb(29, 23, 27);
+}
+.project h1{
+  font-size: 2em;
+  padding-bottom: 0.2em;
+}
+div.projectList{
+  width:  50%;
+  /*display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(255, 255, 255);
+  gap: 1em;*/
+  margin: auto;
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+}
+div.contactList{
+  width:  50%;
+  margin: auto;
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+}
+.contactList a{
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+li{
+  display: inline-block;
+  width: 5em;
+  line-height: 3em;
+  text-align: center;
+}
+img{
+  width: 100%;
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+p{
+  text-decoration: none;
+  display: block;
+}
+footer{
+  line-height: 1.5em;
+  background-color: rgb(60, 60, 64);
+  text-align: center;
+}
